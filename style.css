@@ -1,0 +1,31 @@
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+footer{
+    text-align: center;
+}
+h1{
+    color: aliceblue;
+    font-size: 72px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+p{  
+    color: aliceblue;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+.home{
+    background-image: url("./images/donation4.png");
+    background-size: cover;
+    height: 969px;
+    width: 100%;
+    text-align: center;
+}
+.home_text{
+    width: 65%;
+    margin: auto ;
+    padding-top: 350px;
+}
