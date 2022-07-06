@@ -1,21 +1,31 @@
 * {
     margin: 0px;
     padding: 0px;
+    font-family: 'PT Sans', sans-serif;
   }
 footer{
+    height: 100px;
+    width: 100%;
     text-align: center;
+    background-color: #333;
+}
+.footer_text{
+    color: white;
+    font-size: 20px;
+    margin-top: 50px;
 }
 h1{
     color: aliceblue;
-    font-size: 72px;
+    font-size: 75px;
     text-align: center;
-    font-family: 'Open Sans', sans-serif;
+}
+h2{
+    font-family: 'Yellowtail', cursive;
 }
 p{  
     color: aliceblue;
     font-size: 20px;
     text-align: center;
-    font-family: 'Open Sans', sans-serif;
 }
 .home{
     background-image: url("./images/donation4.png");
@@ -29,3 +39,16 @@ p{
     margin: auto ;
     padding-top: 350px;
 }
+.donate_btn {
+    background:  #f36a48;
+    border: 0px;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px;
+  }
+  
+  .donate_btn:hover {
+    background: #d94734;
+    text-decoration: none;
+  }
