@@ -26,10 +26,20 @@ h2{
 
     text-align: center;
 }
-h3{
-    color: #f36a48;
+h4{
+    color: rgb(250, 84, 62);
     font-family: 'Yellowtail', cursive;
     font-size: 30px;
+}
+h3{
+    color: rgb(34, 37, 39);
+    font-size: 35px;
+}
+h5{
+    color: aliceblue;
+    
+    font-size: 25px;
+    text-align: center;
 }
 p{
     font-size: 20px;
@@ -109,7 +119,7 @@ li {
     border-style: none none solid none; 
 }
 .donation_plan{
-    height: 750px;
+    height: 650px;
     width: 100%;
     text-align: center;
 }
@@ -149,4 +159,78 @@ li {
     font-size: 20px;
     margin: 30px;
     padding: 40px 20px;
+}
+.about_page{
+    text-align: center;
+}
+
+.aboutphoto{
+    background-color: #fa4747;
+    height: 250px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+.aboutstat{
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+#about_us1{
+    width: 25%;
+    text-align: left;
+    background:  #faced9;
+    border: 0px;
+    border-radius: 10px;
+    font-size: 20px;
+    margin: 30px;
+    padding: 40px 20px;
+}
+#about_us2{
+    width: 25%;
+    height: 275px;
+    text-align: left;
+    background-image: url(./images/donation4.jpg);
+    border: 0px;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 40px 20px;
+}
+#email_input{
+    height: 40px;
+    width:100%;
+    margin : 40px;
+    background-color: #fff8f8;
+    color: #333;
+    font-size: 20px;
+    text-align: left;
+    outline: none; 
+    padding-left: 30px;
+    border-style: none; 
+    border-radius: 20px 0px  0px 20px;
+}
+.subcribe_button{
+    height: 40px;
+    width:80%;
+    margin : 40px;
+    background-color: #f13636;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    text-align: left;
+    outline: none; 
+    padding-left: 20px;
+    border-style: none; 
+    border-radius: 0px 20px  20px 0px;
+}
+.subcribe_button:hover {
+    background: #d95b34;
+}
+#update{
+    background-color: #f8e3e3;
+    width: 40%;
+    margin: auto ;
+    border-radius: 30px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    text-align: center;
+    padding: 50px;
 }
